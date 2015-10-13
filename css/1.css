@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#t{
+    width: 100%;
+    height: 45px;
+    background: #0666c5;
+    position: fixed;
+    font-size: 14px;
+    color: #fff;
+    border-bottom: 1px solid #044e97;
+}
+#c{
+    width: 960px;
+    height: 100%;
+    /*height: 80px;*/
+    margin: auto;
+    /*background: rosybrown;*/
+    /*border: solid 1px;*/
+}
+#l{
+    width: 61px;
+    height: 30px;
+    background: url("../image/nav_logo.png");
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+form{
+    width: 367px;
+    /*height: 32px;*/
+    /*background: sandybrown;*/
+    margin: 7px 0 0 73px;
+    float: left;              /*避免外边距合并，浮动会给框内其他元素留出空间*/
+    position: relative;
+    /*border: solid 1px red;*/
+}
+input{
+    height: 17px;
+    padding: 7px 10px 7px 10px;
+    border: solid 1px;             /*默认边框是2px*/
+    font-size: 14px;
+    width: 345px;
+    /*float: right;*/
+    /*width: 100%;*/
+    border-radius: 4px;
+    background: #e1eaf2;
+    color: #49525c;
+    line-height: 17px;
+}
+#s{
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+    height: 100%;
+}
+ul{
+    /*border: 1px solid;*/
+    display: inline-block;
+    margin-left: 18px;
+    float: left;               /*如果没浮动，为什么后面的button会另起一行*/
+}
+li{
+    width: 54px;
+    height: 45px;
+    /*background: lightblue;*/
+    /*border: 1px solid;*/
+    list-style-type: none;    /*设置列表项标记的类型*/
+    /*display: inline-block;*/
+    line-height: 45px;
+    text-align: center;
+    float: left;
+}
+#one{
+-webkit-gradient(linear,0 0,0 100%,from(#055fb8),to(#095fb3));
+}
+
+button{
+    width: 64px;
+    height: 30px;
+    margin-top: 7px;
+    border: 1px solid #045bb2;    /*边框默认是2px吗*/
+    float: right;
+    background: #0d77e4;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+}
+img{
+    /*float: right;*/
+    /*position: relative;*/
+    /*top: 9px;*/
+    border: 1px solid rgba(0, 0, 0, .1);
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+span{
+    /*float: right;*/
+    line-height: 45px;
+    /*text-indent: 20px;*/
+    color: #fff;
+}
+a:link{
+    text-decoration: none;
+}
+#bottom{
+    width:960px;
+    height: 2000px;
+    /*background: gray;*/
+    margin: auto;
+}
+#a{
+    width: 120px;
+    height: 45px;
+    float: right;
+    position: relative;
+    text-indent: 46px;
+    margin-left: 15px;
+}
